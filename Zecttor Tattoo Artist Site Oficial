@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Meu Site</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Sobre</a></li>
+				<li><a href="#">Serviços</a></li>
+				<li><a href="#">Portfólio</a></li>
+				<li><a href="#">Contato</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<main>
+		<section id="portfolio">
+			<h2>Portfólio</h2>
+			<div class="work">
+				<img src="img/work1.jpg">
+				<h3>Trabalho 1</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget velit vel erat consectetur semper. Fusce a mauris vel magna commodo rutrum eget eu magna. Sed et est sed nulla fermentum consequat. In vehicula justo vel quam commodo commodo. </p>
+				<div class="actions">
+					<button class="like">Curtir</button>
+					<button class="share">Compartilhar</button>
+					<button class="reserve">Agendar</button>
+				</div>
+			</div>
+			
+			<div class="work">
+				<img src="img/work2.jpg">
+				<h3>Trabalho 2</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget velit vel erat consectetur semper. Fusce a mauris vel magna commodo rutrum eget eu magna. Sed et est sed nulla fermentum consequat. In vehicula justo vel quam commodo commodo. </p>
+				<div class="actions">
+					<button class="like">Curtir</button>
+					<button class="share">Compartilhar</button>
+					<button class="reserve">Agendar</button>
+				</div>
+			</div>
+		</section>
+	</main>
+	
+	<footer>
+		<p>Meu Site &copy; 2023</p>
+	</footer>
+	
+	<script src="script.js"></script>
+</body>
+</html>
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #333;
+	color: white;
+	padding: 10px;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+}
+
+nav li {
+	margin: 0 10px;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+main {
+	margin: 20px;
+}
+
+.work {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+}
+
+.work img {
+	width: 100%;
+}
+
+.work h3 {
+	margin: 10px 0;
+}
+
+.work p {
+	margin-bottom: 10px;
+}
+
+.actions {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 10px;
+}
+
+.actions button {
+	background-color: #333;
+	color: white;
+	border: none;
+	padding: 5px 10px;
+	cursor: pointer;
+}
+
+footer {
+	background-color: #
